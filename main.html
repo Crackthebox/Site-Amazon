@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./ico.ico">
+
+</head>
+<body>
+    <header class="sus">
+        <div>
+        <a href="./main.html" class="d1" style="  font-weight: bold;">Plante ale amazonului</a>
+            <li id="login-form-li">
+                <form id="login-form" style="display: flex; column-gap: 10px; align-items: center;">
+                    <input type="text" id="username" placeholder="Nume utilizator" required>
+                    <span id="username-error" style="color: red; font-size: 0.8em;"></span>
+                    <input type="password" id="password" placeholder="Parola" required>
+                    <button type="submit">Login</button>
+                </form>
+            </li>
+            <li id="logout-li" style="display: none;">
+                <button id="logout-button">Logout</button>
+                <span id="welcome-message" style="margin-left: 10px;"></span>
+            </li>
+        </div>
+        <ul style="display:flex; list-style: none; column-gap:40px; align-items: center;">
+            <li><a href="./harta.html" class="d1">Harta</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Amazon_rainforest " class="d1" target=”_blank”>Wiki</a></li>
+            <li class="drp"><a href="./main.html" class="d1">Specii &#x25BE;</a>
+            <ul class="drpl">
+                <li class="drpi"><a href="./p1.html" class="drpli">Monstera</a></li>
+                <li class="drpi"><a href="./p2.html" class="drpli">Musa</a></li>
+                <li class="drpi"><a href="./p3.html" class="drpli">Pitahaya</a></li>
+                <li class="drpi"><a href="./p4.html" class="drpli">Taro</a></li>
+                <li class="drpi"><a href="./p5.html" class="drpli">Coconut</a></li>
+                <li class="drpi"><a href="./p6.html" class="drpli">Cocoa</a></li>
+            </ul>
+            </li>
+        </ul>
+
+    </header>
+    <div class="s1">
+        <div class="tr1">The Amazon rainforest is a global biodiversity hotspot, home to countless plant, animal, and insect species found nowhere else. Its dense forests and vast river systems sustain jaguars, macaws, pink river dolphins, and millions of insects. This rich ecosystem supports Indigenous communities and plays a crucial role in Earth’s climate balance.
+</div>
+        <img src="./tn2.jpeg" class="tr2" alt="imagine fail">
+
+</div>
+    <div class="s2">
+        <img src="./s31.webp" class="ims3" alt="imagine fail">
+        <img src="./s32.webp" class="ims3" alt="imagine fail">
+        <img src="./s33.jpg" class="ims3" alt="imagine fail">
+        <img src="./s34.webp" class="ims3" alt="imagine fail">
+        <img src="./s35.webp" class="ims3" alt="imagine fail">
+    </div>
+
+    <section id="marketplace" class="marketplace-section" style="display: none; background-color:white; background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <h2 style="text-align: center; color: #001540; font-size: 5vh; margin-bottom: 20px;"><span style="background-color: black; padding: 5px 10px; border-radius: 5px; color: white;">Piața de plante</span></h2>
+        <div id="plant-listings" style="display: flex; flex-wrap: wrap; justify-content: center; column-gap: 20px; row-gap: 20px;">
+            <!-- Plant listings will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <section id="shopping-cart" style="display: none; padding: 20px; background-image: url('./17969356.jpgin'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <h2 style="text-align: center; color: #001540; font-size: 5vh; margin-bottom: 20px;">Coș de cumpărături</h2>
+        <div id="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div style="text-align: right; margin-top: 20px;">
+            <p style="font-weight: bold; font-size: 2vh;">Total: <span id="cart-total">0</span> RON</p>
+            <button id="clear-cart-btn" style="background-color: #cc0000; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer;">Golește coșul</button>
+        </div>
+    </section>
+    <script src="script.js" defer></script>
+</body>
+</html>

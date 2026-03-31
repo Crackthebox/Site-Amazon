@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nume": "Monstera Deliciosa",
+        "descriere": "Monstera deliciosa, the Swiss cheese plant or split-leaf philodendron is a species of flowering plant. The common name \"Swiss cheese plant\" is also used for the related species from the same genus, Monstera adansonii. The common name \"split-leaf philodendron\" is also used for the species Philodendron bipinnatifidum.",
+        "imagine": "p1.jpg",
+        "pret": 50
+    },
+    {
+        "id": 2,
+        "nume": "Musa Acuminata",
+        "descriere": "Musa acuminata is a species of banana native to Southern Asia, its range comprising the Indian subcontinent and Southeast Asia. Many of the modern edible dessert bananas are derived from this species, although some are hybrids with Musa balbisiana. First cultivated by humans around 8000 BCE, it is one of the early examples of domesticated plants.",
+        "imagine": "p2.jpg",
+        "pret": 35
+    },
+    {
+        "id": 3,
+        "nume": "Pitahaya",
+        "descriere": "Pitaya (/pɪˈtaɪ.ə/), pitahaya (/ˌpɪtəˈhaɪ.ə/) or commonly known as dragon fruit (and strawberry pear) is the fruit of several cactus species indigenous to the region of southern Mexico and along the Pacific coasts of Guatemala, Costa Rica, and El Salvador. Pitaya is cultivated in East Asia, South Asia, Southeast Asia, continental America, the Caribbean, Australia, Brazil, Madeira (Portugal), and throughout tropical and subtropical regions of the world.",
+        "imagine": "p3.jpg",
+        "pret": 45
+    },
+    {
+        "id": 4,
+        "nume": "Taro",
+        "descriere": "Taro (/ˈtɑːroʊ, ˈtær-/; Colocasia esculenta) is a root vegetable. It is the most widely cultivated species of several plants in the family Araceae that are used as vegetables for their corms, leaves, stems and petioles. Taro corms are a food staple in African, Oceanic, East Asian, Southeast Asian and South Asian cultures (similar to yams).",
+        "imagine": "p4.JPG",
+        "pret": 25
+    },
+    {
+        "id": 5,
+        "nume": "Cocos Nucifera",
+        "descriere": "The coconut tree (Cocos nucifera) is a member of the palm tree family (Arecaceae) and the only living species of the genus Cocos. The term \"coconut\" (or the archaic \"cocoanut\") can refer to the whole coconut palm, the seed, or the fruit, which botanically is a drupe, not a nut. Originally native to Central Indo-Pacific, they are now ubiquitous in coastal tropical regions and are a cultural icon of the tropics.",
+        "imagine": "p5.JPG",
+        "pret": 60
+    },
+    {
+        "id": 6,
+        "nume": "Theobroma Cacao",
+        "descriere": "Theobroma cacao (cacao tree or cocoa tree) is a small (6–12 m (20–39 ft) tall) evergreen tree in the Malvaceae family. Its seeds—cocoa beans—are used to make chocolate liquor, cocoa solids, cocoa butter and chocolate. Although the tree is native to the tropics of the Americas, the largest producer of cocoa beans in 2022 was Ivory Coast. The plants leaves are alternate, entire, unlobed, 10–50 cm (4–20 in) long and 5–10 cm (2–4 in) broad.",
+        "imagine": "p6.jpg",
+        "pret": 75
+    }
+]

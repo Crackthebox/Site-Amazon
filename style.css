@@ -1,0 +1,286 @@
+.s3{
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+        height:88vh;
+        width:100%;
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+        row-gap: 0;
+}
+.ima{
+    max-width:800px;
+    max-height:800px;
+    height:100%;
+    width: 100%;
+    border:0px;
+}
+.ima:hover{transform: translateY(-17%) scale(1.2); 
+    border:3px solid black;
+    transition: transform 5s,border 2s; }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.sus{
+    background-color: azure;
+    width:100%;
+    height:12vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.s1{
+    background-image: url('./bkg.jpg');
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    column-gap: 20px;
+}
+.tr1{
+    width:20vh;
+    height:45vh;
+    text-align:center;
+    background-color: white;
+    border:3px solid black;
+    font-size: 1em;
+    animation-name: moveTr1;
+}
+.tr2{
+    width:20vh;
+    height:45vh;
+    border: 3px solid black;
+    animation-name: moveTr2;
+}
+.tr1, .tr2 {
+    position: relative;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+a{text-decoration: none;}
+.d1{
+    
+    font-size:5vh;
+    color: #001540;
+    margin:10px;
+    padding:10px;
+}
+
+
+.d1:hover, .drp:hover .d1{
+    background-color: rgb(200, 215, 215);
+    color: rgb(30, 51, 94);
+
+}
+
+ @media (max-width:900px){
+    .sus{
+        
+        flex-direction: column;
+        height:auto;
+        row-gap: 10px;
+    }
+}
+
+.drp{
+    position:relative;
+    transform: translateY(-15%);
+}
+.drp:hover .drpl{display:block;}
+.drpl{
+     list-style: none;
+   position:absolute;
+   left:-15%;
+   top:120%;
+   display:none;
+}
+
+.drpi{
+       
+
+    padding:10px 40px;
+    height:5vh;
+    cursor: pointer;
+       background-color: azure;
+
+}
+.drpi:hover{background-color: rgb(200, 215, 215);
+    color: rgb(30, 51, 94);}
+.drpli{
+    color:#001540;
+}
+
+
+
+
+ @keyframes moveTr1 {
+    0%   { transform: translate(0, 0); border-color: red; }
+    10%  { transform: translate(0, -24vh); border-color: #001540; }
+    20%  { transform: translate(-45vh, -24vh); border-color: red; }
+    40%  { transform: translate(-45vh, 24vh); border-color: #001540; }
+    60%  { transform: translate(45vh, 24vh); border-color: red; }
+    80%  { transform: translate(45vh, -24vh); border-color: #001540; }
+    90%  { transform: translate(0, -24vh); border-color: red; }
+    100% { transform: translate(0, 0); border-color: #001540; }
+}
+
+ @keyframes moveTr2 {
+    0%   { transform: translate(0, 0); border-color: red; }
+    10%  { transform: translate(0, 24vh); border-color: #001540; }
+    20%  { transform: translate(45vh, 24vh); border-color: red; }
+    40%  { transform: translate(45vh, -24vh); border-color: #001540; }
+    60%  { transform: translate(-45vh, -24vh); border-color: red; }
+    80%  { transform: translate(-45vh, 24vh); border-color: #001540; }
+    90%  { transform: translate(0, 24vh); border-color: red; }
+    100% { transform: translate(0, 0); border-color: #001540; }
+}
+
+
+
+ @media (max-width:900px){
+.tr1{font-size: 0.9em;}
+ @keyframes moveTr1 {
+    0%   { transform: translate(0, 0); border-color: red; }
+    10%  { transform: translate(0, -24vh); border-color: #001540; }
+    20%  { transform: translate(-24vh, -24vh); border-color: red; }
+    40%  { transform: translate(-24vh, 24vh); border-color: #001540; }
+    60%  { transform: translate(24vh, 24vh); border-color: red; }
+    80%  { transform: translate(24vh, -24vh); border-color: #001540; }
+    90%  { transform: translate(0, -24vh); border-color: red; }
+    100% { transform: translate(0, 0); border-color: #001540; }
+}
+
+ @keyframes moveTr2 {
+    0%   { transform: translate(0, 0); border-color: red; }
+    10%  { transform: translate(0, 24vh); border-color: #001540; }
+    20%  { transform: translate(24vh, 24vh); border-color: red; }
+    40%  { transform: translate(24vh, -24vh); border-color: #001540; }
+    60%  { transform: translate(-24vh, -24vh); border-color: red; }
+    80%  { transform: translate(-24vh, 24vh); border-color: #001540; }
+    90%  { transform: translate(0, 24vh); border-color: red; }
+    100% { transform: translate(0, 0); border-color: #001540; }
+}
+
+
+}
+.s2{
+    height:100vh;
+    width:100vw;
+    background-image: url('./5371964.jpg');
+    background-size: cover;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-content: center;
+    row-gap:2vh;
+    column-gap: 5vh;
+
+}
+.ims3{
+    width: 45vh;
+    height:45vh;
+    border:1vh solid rgb(64, 34, 4);
+    transition: transform 0.2s;
+}
+
+.ims3:hover{
+    transform: scale(1.15);
+
+}
+ @media (max-width:900px){
+    .s2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        height:100%;
+    }
+    .ims3:hover{
+    transform: scale(1.5);
+
+}
+}
+.imi{
+    height:88vh;
+    width: 50vw;
+}
+.s4{
+    height:88vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+
+.ds4{
+height:88vh;width:50vw; 
+ color:azure; 
+ background-color: #001540;
+  display:block; 
+
+}
+.ds5{
+    font-size:4vh; 
+    text-align:left; 
+}
+.ds5::before{
+    content: "Content extracted from Wikipedia: ";
+  color: gray;
+}
+
+
+.ds5::after{
+  content: " Content source: https://en.wikipedia.org/wiki/Main_Page";
+  color: gray;
+
+}
+
+.plant-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.add-to-cart-btn {
+    background-color: #001540;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+
+.page-background {
+    background-image: url('./bkg.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#welcome-message {
+    color: black;
+    margin-left: 20px;
+    margin-top: 5px;
+}
